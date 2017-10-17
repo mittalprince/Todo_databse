@@ -1,0 +1,27 @@
+#todolist-container, #input{
+    padding:15px;
+}
+.btn{
+    width:100%;
+    height:100%;
+}
+.btn-up{
+    color: #0275d8;
+}
+.btn-down{
+    color: #0275d8;
+}
+.btn-del{
+    color:#d9534f;
+}
+#list >li:first-child > .btn-up{
+    pointer-events: none;
+    visibility: hidden;
+}
+#list >li:last-child > .btn-down{
+    pointer-events: none;
+    visibility: hidden;
+}
+#list > li:hover{
+    background-color: lightgray;
+}

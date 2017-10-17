@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="todo.png" />
+    <title>ToDos</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/todo.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="row header">
+    <div class="col"></div>
+    <div class="col">
+        <h1 class="display-2" align="center">ToDo List</h1>
+    </div>
+    <div class="col"></div>
+</div>
+    <div class="row" id="input">
+        <div class="col">
+            <input id="newtodo" type="text" class="form-control form-control-lg" placeholder="Add Todo Items here......">
+        </div>
+        <div class="col-2">
+            <button id="addtodo" class="btn btn-outlineop-primary">
+                <i class="fa fa-2x fa-plus-circle"></i>
+            </button>
+        </div>
+        <div class="col-2">
+            <button id="deltodo" class="btn btn-outline-danger">
+                <i class="fa fa-2x fa-trash"></i>
+            </button>
+        </div>
+    </div>
+    <div class="row" id="todolist-container" >
+        <div class="col">
+        <ul id="list" class="list-group ">
+            <li class="list-group-item"> Sample Items</li>
+            <li class="list-group-item"> Sample Items</li>
+        </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
